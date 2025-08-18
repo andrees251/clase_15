@@ -1,0 +1,5 @@
+se agrego un navbar de bootstrap, personalizar para que quede con el mismo color del header
+se agrego un foooter personalizar fondo, tipo de letra y agregar iconos de redes sociales
+
+
+Andres--> tendrias que hacer una partial (modulo) de variables y utilziar la sintaxis de sass que es distinta a css
