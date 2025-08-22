@@ -1,0 +1,27 @@
+footer{
+    background-color: var(--clr-main);
+    text-align: center;
+    font-family: var(--tipo-letra-footer);
+    box-shadow: var(--box-shadow-expand);
+
+    .icons{
+        font-size: 30px;
+        
+        a{
+
+            i{
+
+                &:hover{
+                color: var(--clr-light);
+                transform: scale(1.05);
+                
+                
+
+                }
+            }
+        }
+        
+       
+    }
+    
+}

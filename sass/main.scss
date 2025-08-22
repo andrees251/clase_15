@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import "root";
-@import "base";
-@import "media";
-@import "header";
-@import "body";
-@import "grid";
+@import "./abstracts/root";
+@import "./abstracts/base";
+@import "./abstracts/media";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/body";
+@import "./layout/grid";
+@import "./layout/footer";

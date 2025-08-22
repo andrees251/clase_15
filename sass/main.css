@@ -6,6 +6,7 @@
   --box-shadow: 0 0 10px rgba(0, 0, 0, .2);
   --box-shadow-expand: 0 0 15px rgba(0, 0, 0, .3);
   font-family: "Poppins", sans-serif;
+  --tipo-letra-footer:"WDXL Lubrifont TC", sans-serif;
 }
 
 * {
@@ -28,6 +29,10 @@ header .titulo {
   header .titulo {
     font-size: 1.2rem;
   }
+}
+
+nav {
+  background-color: var(--clr-main);
 }
 
 body {
@@ -176,4 +181,17 @@ main {
   .grid-item:nth-child(3) {
     grid-column: 3/5;
   }
+}
+footer {
+  background-color: var(--clr-main);
+  text-align: center;
+  font-family: var(--tipo-letra-footer);
+  box-shadow: var(--box-shadow-expand);
+}
+footer .icons {
+  font-size: 30px;
+}
+footer .icons a i:hover {
+  color: var(--clr-light);
+  transform: scale(1.05);
 }/*# sourceMappingURL=main.css.map */
