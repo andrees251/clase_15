@@ -12,5 +12,9 @@ header{
         }
     }
 
+    body.dark-mode & {
+        background-color: #181a1b;
+        color: #e0e0e0;
+    }
     
 }

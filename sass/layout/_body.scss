@@ -9,4 +9,15 @@ body {
         text-decoration: none;
 
     }
+
+    &.dark-mode{
+        background-color: #181a1b;
+        color: #e0e0e0;
+
+        a{
+            color: #b3b3b3;
+        }
+
+
+        }
 }

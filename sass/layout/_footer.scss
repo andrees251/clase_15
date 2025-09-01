@@ -23,5 +23,10 @@ footer{
         
        
     }
+
+    body.dark-mode & {
+        background-color: var(--dark-mode);
+        color: #e0e0e0;
+    } 
     
 }

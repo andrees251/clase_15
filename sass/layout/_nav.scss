@@ -1,4 +1,17 @@
 nav{
     background-color: var(--clr-main);
 
+    body.dark-mode & {
+        background-color: #222;
+        color: #e0e0e0;
+            
+        .dropdown{
+            ul{
+            background-color: #23272b;
+            color: #e0e0e0;
+            border-color: #444;
+            }
+        }
+    } 
+    
 }

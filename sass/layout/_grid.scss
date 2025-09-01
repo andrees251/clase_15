@@ -26,6 +26,12 @@ main {
          grid-template-columns: repeat(5, 1fr);
     }
 
+    body.dark-mode & {
+        background-color: #23272b;
+        color: #e0e0e0;
+        border-color: #444;
+    }
+
     }
 
     .grid-item {
@@ -75,6 +81,12 @@ main {
             transform: scale(1.05);
             box-shadow: var(--box-shadow-expand);
             
+        }
+
+        body.dark-mode & {
+            background-color: #23272b;
+            color: #e0e0e0;
+            border-color: #444;
         }
     }
 
